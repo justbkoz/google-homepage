@@ -3,22 +3,82 @@
     <head>
         <title>Dan's Google Homepage</title>
         <meta charset='utf8'>
-
-
-
+        <style>
+            #about {
+                padding: 5px;
+            }
+            #store {
+                padding: 5px;
+            }
+            #gmail {
+                float: right;
+                padding: 5px;
+            }
+            #images {
+                float: right;
+                padding: 5px;
+            }
+            h1 {
+                padding-top: 50px;
+                padding-bottom: 20px;
+                text-align: center;
+            }
+            #search {
+                text-align: center;
+                margin-bottom: 5px;
+            }
+            #submit {
+                text-align: center;
+            }
+            footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: rgba(211, 211, 211);
+                text-align: center;
+            }
+            .right_foot {
+                float: right;
+                padding: 5px;
+            }
+            .left_foot {
+                float: left;
+                padding: 5px;
+            }
+        </style>
     </head>
-        <body>
-            <header>
-                <nav>
-                    test
-                    <!-- About Store Gmail Images -->
-                </nav>
-            </header>
-            <h1>
-                <img></img>
-            </h1>
-
-
-        </body>
+    <body>
+        <header>
+            <nav>
+                <a id="about" href="#">About</a>
+                <a id="store" href="#">Store</a>
+                <a id="gmail" href="#">Gmail</a>
+                <a id="images" href="#">Images</a>         
+            </nav>
+        </header>
+        <h1><img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'/>
+        </h1>
+        <div id="search">
+            <input type="text">
+        </div>
+        <div id="submit">
+            <button type="submit">Google Search</button>
+            <button type="submit">I'm Feeling Lucky</button>
+        </div>
+    </body>
+    <footer>
+        <div>
+            <a id="carbon" href="#">Carbon neutral since 2007</a>
+        </div>
+        <div>
+            <a id="advert" class="left_foot" href="#">Advertising</a>
+            <a id="business" class="left_foot" href="#">Business</a>
+            <a id="how" class="left_foot" href="#">How Search works</a>
+            <a id="privacy" class="right_foot" href="#">Privacy</a>
+            <a id="terms" class="right_foot" href="#">Terms</a>
+            <a id="settings" class="right_foot" href="#">Settings</a>
+        </div>
+    </footer>
 </html>
 
